@@ -1,0 +1,21 @@
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+.hamburger span {
+  width: 30px;
+  height: 4px;
+  background-color: gold;
+}
+.hamburger:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}

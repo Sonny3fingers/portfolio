@@ -1,0 +1,53 @@
+.mobileNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+}
+.mobileNavbar ul {
+  min-width: 300px;
+  width: 360px;
+  padding: 90px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 49px;
+  background: #fff;
+  border: 6px solid var(--soft-red);
+  list-style-type: none;
+}
+.mobileNavbar ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  padding: 10px 0px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+.mobileNavbar ul li:not(li:last-of-type) a::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: #000;
+  transition: all 0.3s ease-in;
+}
+.mobileNavbar ul li:not(li:last-of-type) a:hover::after {
+  width: 100%;
+  left: 0;
+}
+.mobileNavbar ul li:not(li:last-of-type) a.active::after {
+  width: 100%;
+  left: 0;
+  background: var(--soft-red);
+}
+.mobileNavbar ul li:last-of-type {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
