@@ -1,13 +1,36 @@
-import React from "react";
+import React, { useContext } from "react";
 import ReactDOM from "react-dom";
 import styles from "./Modal.module.css";
+import MobileNavContext from "../store/mobile-nav-context";
 
-const Backdrop = (props) => {
-  return <div className={styles.backdrop}></div>;
+const Backdrop = () => {
+  const mobileNavCtx = useContext(MobileNavContext);
+  let showMobileNav = mobileNavCtx.isShown;
+  return (
+    <div
+      className={
+        showMobileNav
+          ? `${styles.backdrop} ${styles.active}`
+          : `${styles.backdrop} ${styles.inactive}`
+      }
+    ></div>
+  );
 };
 
 const ModalOverlay = (props) => {
-  return <div className={styles.modal}>{props.children}</div>;
+  const mobileNavCtx = useContext(MobileNavContext);
+  let showMobileNav = mobileNavCtx.isShown;
+  return (
+    <div
+      className={
+        showMobileNav
+          ? `${styles.modal} ${styles.active}`
+          : `${styles.modal} ${styles.inactive}`
+      }
+    >
+      {props.children}
+    </div>
+  );
 };
 
 const Modal = (props) => {

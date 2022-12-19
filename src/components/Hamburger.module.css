@@ -1,6 +1,8 @@
 .hamburger {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 5px;
   background-color: transparent;
   border: 0;
@@ -10,6 +12,23 @@
   width: 30px;
   height: 4px;
   background-color: gold;
+  transition: all 0.3s ease-in;
+}
+.active span {
+  transition: all 0.3s ease-in;
+}
+.active span:nth-of-type(2) {
+  opacity: 0;
+}
+.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(-3px);
+  transform-origin: left center;
+  border-radius: 3px;
+}
+.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(3px);
+  transform-origin: left center;
+  border-radius: 3px;
 }
 .hamburger:hover {
   cursor: pointer;

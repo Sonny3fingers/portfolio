@@ -1,0 +1,18 @@
+.ctaButton {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-family: "merriweather";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: var(--white);
+  background-color: var(--soft-red);
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+.ctaButton:hover {
+  color: var(--soft-red);
+  background-color: var(--white);
+  outline: 3px solid var(--soft-red);
+}
