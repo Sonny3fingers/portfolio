@@ -5,13 +5,16 @@
   --white: white;
   --dark-background: #282525;
   --soft-red: #fc5555;
-  --hover-red: #ff8e9e;
+  --hover-red: #fc2323;
   --light-red: rgb(245, 182, 182);
   --gold-text: #f5aa45;
+  --frame-color: #8d5a1590;
   /* padding containers */
   --small-container: 14px 20px;
   --medium-container: 14px 60px;
+  --medium-page-container: 50px 30px;
   --large-container: 14px 120px;
+  --large-page-container: 100px 120px;
   /* elements measures */
   --logo-measure: 105px;
   --header-height: 75px;
@@ -26,5 +29,9 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  overflow: hidden;
+  width: 100vw;
+  /* overflow-x: hidden; */
+}
+body::-webkit-scrollbar {
+  display: none;
 }

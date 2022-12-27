@@ -12,7 +12,12 @@
   transition: background-color 0.3s ease-in-out;
 }
 .ctaButton:hover {
-  color: var(--soft-red);
-  background-color: var(--white);
-  outline: 3px solid var(--soft-red);
+  background-color: var(--hover-red);
+  /* outline: 2px solid var(--dark-background); */
+}
+@media screen and (min-width: 1200px) {
+  .ctaButton {
+    font-size: 24px;
+    padding: 12px 22px;
+  }
 }
