@@ -1,0 +1,17 @@
+.hardSkills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: var(--small-container);
+}
+@media screen and (min-width: 768px) {
+  .hardSkills {
+    padding: var(--medium-container);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hardSkills {
+    padding: var(--large-container);
+  }
+}

@@ -87,6 +87,11 @@
     text-align: left;
   }
 }
+@media screen and (min-width: 840px) {
+  .heroText h1 {
+    font-size: 36px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero {
     padding: var(--large-page-container);

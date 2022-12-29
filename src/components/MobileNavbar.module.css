@@ -13,7 +13,7 @@
   align-items: center;
   gap: 49px;
   background: #fff;
-  border: 6px solid var(--soft-red);
+  border: 6px solid var(--light-red);
   list-style-type: none;
 }
 .mobileNavbar ul a {
