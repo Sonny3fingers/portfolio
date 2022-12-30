@@ -5,7 +5,6 @@ import { HardSkillsData } from "../HardSkillsData";
 import styles from "./DoughnutChart.module.css";
 
 const DoughnutChart = () => {
-  const [skills, setSkills] = useState([]);
   let dataArr = [];
   HardSkillsData.forEach((item) => {
     const data = {

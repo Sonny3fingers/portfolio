@@ -1,9 +1,12 @@
 import React from "react";
+import PortfolioHeader from "../components/layout/PortfolioHeader";
+import PortfolioList from "../components/layout/PortfolioList";
 
 const Portfolio = () => {
   return (
     <div>
-      <h1>This is Portfolio page</h1>
+      <PortfolioHeader />
+      <PortfolioList />
     </div>
   );
 };

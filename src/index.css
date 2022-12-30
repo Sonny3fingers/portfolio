@@ -4,6 +4,8 @@
   /* colors */
   --white: white;
   --dark-background: #282525;
+  --soft-beige: #f0eccf;
+  --soft-green: #a3bb98;
   --soft-red: #fc5555;
   --hover-red: #fc2323;
   --light-red: rgb(245, 182, 182);
@@ -28,9 +30,12 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Inter", sans-serif;
   width: 100vw;
+  max-width: 1700px;
+  margin: auto;
   /* overflow-x: hidden; */
 }
 body::-webkit-scrollbar {

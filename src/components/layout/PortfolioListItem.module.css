@@ -1,0 +1,39 @@
+.portfolioListItem {
+  padding: 20px;
+  background-color: #a3bb98;
+  margin-bottom: 14px;
+}
+.portfolioListItem:nth-child(even) {
+  background-color: var(--soft-beige);
+}
+.portfolioListItem:nth-child(odd) {
+  background-color: var(--soft-green);
+}
+.portfolioListItem div:first-child {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolioListItem > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+.portfolioListItem h3 {
+  padding-bottom: 5px;
+}
+.portfolioListItem p {
+  margin-bottom: 40px;
+}
+.buttonGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink, Link } from "react-router-dom";
 import Modal from "./Modal";
 import Linkedin from "./icons/Linkedin";
 import Github from "./icons/Github";
 import styles from "./MobileNavbar.module.css";
+import MobileNavContext from "../store/mobile-nav-context";
 
 const MobileNavbar = () => {
+  const mobileNavCtx = useContext(MobileNavContext);
+  function mobileNavbarHandler() {
+    mobileNavCtx.toggleMobileNav();
+  }
   return (
     <Modal>
       <nav className={styles.mobileNavbar}>
         <ul>
           <li>
             <NavLink
+              onClick={mobileNavbarHandler}
               className={({ isActive }) => (isActive ? `${styles.active}` : "")}
               to="/"
             >
@@ -20,6 +26,7 @@ const MobileNavbar = () => {
           </li>
           <li>
             <NavLink
+              onClick={mobileNavbarHandler}
               className={({ isActive }) => (isActive ? `${styles.active}` : "")}
               to="/skills"
             >
@@ -28,6 +35,7 @@ const MobileNavbar = () => {
           </li>
           <li>
             <NavLink
+              onClick={mobileNavbarHandler}
               className={({ isActive }) => (isActive ? `${styles.active}` : "")}
               to="/portfolio"
             >
@@ -36,6 +44,7 @@ const MobileNavbar = () => {
           </li>
           <li>
             <NavLink
+              onClick={mobileNavbarHandler}
               className={({ isActive }) => (isActive ? `${styles.active}` : "")}
               to="/contact"
             >
@@ -44,12 +53,12 @@ const MobileNavbar = () => {
           </li>
           <li>
             <span>
-              <Link>
+              <Link onClick={mobileNavbarHandler}>
                 <Linkedin className={styles.icon} />
               </Link>
             </span>
             <span>
-              <Link>
+              <Link onClick={mobileNavbarHandler}>
                 <Github className={styles.icon} />
               </Link>
             </span>

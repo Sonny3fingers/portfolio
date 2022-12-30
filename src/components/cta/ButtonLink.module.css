@@ -1,0 +1,15 @@
+.buttonLink {
+  background-color: var(--white);
+  padding: 4px 12px;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark-background);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.buttonLink:hover {
+  color: var(--soft-red);
+}

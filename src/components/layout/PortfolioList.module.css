@@ -1,0 +1,4 @@
+.portfolioList {
+  list-style-type: none;
+  padding: var(--small-container);
+}
