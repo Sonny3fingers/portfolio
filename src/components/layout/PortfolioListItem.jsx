@@ -1,29 +1,31 @@
 import React from "react";
 import styles from "./PortfolioListItem.module.css";
-import BookmarkImage from "../../assets/png/bookmark-small.png";
+import BookmarkImage from "../../assets/png/bookmark-desktop.png";
 import ButtonLink from "../cta/ButtonLink";
 
-const PortfolioListItem = () => {
-  const [arrExample, setArrExample] = [
-    {
-      image: BookmarkImage,
-      title: "Project 1 Header",
-      tech: ["html", "css", "javascript"],
-    },
-  ];
+const PortfolioListItem = ({
+  image,
+  title,
+  languages,
+  itemBackgroundColor,
+  buttonColor,
+}) => {
   return (
-    <li className={styles.portfolioListItem}>
+    <li
+      className={styles.portfolioListItem}
+      style={{ backgroundColor: `${itemBackgroundColor}` }}
+    >
       <div>
         <picture>
-          <img src={BookmarkImage} alt="Bookmark-small" />
+          <img src={image} alt="item" style={{ width: `100%` }} />
         </picture>
       </div>
       <div>
-        <h3>Project Header</h3>
-        <p>{arrExample.tech.map((item) => `${item} `)}</p>
+        <h3>{title}</h3>
+        <p>{[languages.map((item) => `${item}, `)]}</p>
         <div className={styles.buttonGroup}>
-          <ButtonLink>Code</ButtonLink>
-          <ButtonLink>Project</ButtonLink>
+          <ButtonLink buttonColor={buttonColor}>Code</ButtonLink>
+          <ButtonLink buttonColor={buttonColor}>Project</ButtonLink>
         </div>
       </div>
     </li>
