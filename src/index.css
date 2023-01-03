@@ -4,6 +4,7 @@
   /* colors */
   --white: white;
   --dark-background: #282525;
+  --dark-green: #005b5d;
   --soft-beige: #f0eccf;
   --soft-green: #a3bb98;
   --soft-red: #fc5555;
@@ -12,6 +13,7 @@
   --light-gray: #f2f2f2;
   --gold-text: #f5aa45;
   --frame-color: #8d5a1590;
+  --old-paper: #e0d3af;
   /* padding containers */
   --small-container: 14px 20px;
   --medium-container: 14px 60px;
@@ -24,6 +26,7 @@
   --heroImg-height: 220px;
   /* typography */
   --header-font: "Merriweather", serif;
+  --body-font: "Inter", sans-serif;
 }
 * {
   box-sizing: border-box;

@@ -9,16 +9,28 @@
   border-bottom: 1px solid var(--dark-background);
 }
 .portfolioHeader p {
+  text-align: right;
   width: 50%;
   padding: 20px 0px;
 }
 .portfolioHeader h2 {
   align-self: center;
   font-family: var(--header-font);
-  /* text-align: center; */
   color: var(--gold-text);
   font-size: 42px;
   font-weight: 900;
   -webkit-text-stroke: 1px var(--dark-background);
   letter-spacing: 2px;
+}
+@media screen and (min-width: 768px) {
+  .portfolioHeader {
+    padding: var(--medium-container);
+    font-size: 120%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolioHeader {
+    height: 400px;
+    padding: var(--large-container);
+  }
 }

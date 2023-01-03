@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./PortfolioListItem.module.css";
-import BookmarkImage from "../../assets/png/bookmark-desktop.png";
 import ButtonLink from "../cta/ButtonLink";
 
 const PortfolioListItem = ({

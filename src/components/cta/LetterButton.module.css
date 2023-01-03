@@ -1,0 +1,23 @@
+.letterButton {
+  letter-spacing: 4px;
+  font-family: var(--body-font);
+  font-size: 120%;
+  align-self: flex-end;
+  padding: 10px;
+  margin: 40px 0px 0px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+.letterButton:hover {
+  color: var(--soft-red);
+}
+.letterButton span {
+  display: inline-block;
+  width: 38px;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid var(--dark-background);
+  text-align: center;
+}

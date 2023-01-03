@@ -1,9 +1,14 @@
 import React from "react";
+import Form from "../components/Form";
+import ContactHeader from "../components/layout/ContactHeader";
+import PersonalInfo from "../components/layout/PersonalInfo";
 
 const Contact = () => {
   return (
     <div>
-      <h1>This is Contact page</h1>
+      <Form />
+      <ContactHeader />
+      <PersonalInfo />
     </div>
   );
 };

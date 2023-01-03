@@ -19,7 +19,7 @@ export const portfolioListData = [
     title: "E-commerce Product Page",
     languages: ["html", "css", "javascript", "react"],
     background: "#FAEAB1",
-    buttonColor: "#B85B1A",
+    buttonColor: "#ff7d1a",
   },
   {
     id: 3,
