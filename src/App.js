@@ -10,19 +10,17 @@ import MobileNavbar from "./components/MobileNavbar";
 import MobileNavContext from "./store/mobile-nav-context";
 
 function App() {
-  const [mobileNavbarIsShown, setMobileNavbarIsShown] = useState(false);
+  // const [mobileNavbarIsShown, setMobileNavbarIsShown] = useState(false);
 
-  let mobileNavCtx = useContext(MobileNavContext);
+  // let mobileNavCtx = useContext(MobileNavContext);
 
-  useEffect(() => {
-    setMobileNavbarIsShown(mobileNavCtx.isShown);
-  }, [mobileNavCtx.isShown]);
+  // useEffect(() => {
+  //   setMobileNavbarIsShown(mobileNavCtx.isShown);
+  // }, [mobileNavCtx.isShown]);
 
   return (
     <Router>
       <Navbar />
-      {/* onShowMobileNavbar={showMobileNavbar} */}
-      {/* {mobileNavbarIsShown && <MobileNavbar />} */}
       <MobileNavbar />
       <Routes>
         <Route path="/" element={<Home />} />

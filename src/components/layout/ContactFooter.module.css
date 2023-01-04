@@ -1,0 +1,61 @@
+footer {
+  position: relative;
+  height: 276px;
+  margin-top: 80px;
+  padding: var(--small-container);
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+footer::after {
+  content: "";
+  width: 176px;
+  height: 189px;
+  background: url("../../assets/png/mouse.png") no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+footer h4 {
+  text-align: center;
+  font-size: 24px;
+  padding: 15px 0px;
+}
+@media screen and (min-width: 540px) {
+  footer::after {
+    content: "";
+    width: 216px;
+    height: 229px;
+  }
+  footer h4 {
+    width: 50%;
+    font-size: 34px;
+    padding: 30px 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    padding: var(--medium-container);
+  }
+  footer h4 {
+    width: 70%;
+    font-size: 36px;
+    padding: 40px 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    padding: var(--large-container);
+  }
+  footer h4 {
+    width: 80%;
+    font-size: 48px;
+  }
+  footer::after {
+    content: "";
+    width: 236px;
+    height: 249px;
+    right: 20px;
+  }
+}

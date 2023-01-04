@@ -1,0 +1,34 @@
+.contactContainer {
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  .contactContainer {
+    grid-template-columns: 30px 1fr 1fr 1fr 30px;
+    grid-template-rows: 30px 336px 120px 276px;
+  }
+  .contactContainer form {
+    margin-right: 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .contactContainer ul {
+    height: 316px;
+    margin-left: 0;
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+  .contactContainer h2 {
+    grid-column: 2/5;
+    grid-row: 3/4;
+  }
+  .contactContainer footer {
+    grid-column: 1/6;
+    grid-row: 4/5;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contactContainer {
+    grid-template-columns: 120px 1fr 1fr 1fr 120px;
+    grid-template-rows: 100px 336px 120px 276px;
+  }
+}

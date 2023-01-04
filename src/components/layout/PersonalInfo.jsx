@@ -15,7 +15,7 @@ const PersonalInfo = () => {
         </span>
       </li>
       <li>
-        name: <span>Jovisevic Milivoj</span>{" "}
+        name: <span>Milivoj Jovisevic</span>
       </li>
       <li>
         country: <span>Serbia</span>

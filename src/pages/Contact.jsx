@@ -1,15 +1,11 @@
 import React from "react";
-import Form from "../components/Form";
-import ContactHeader from "../components/layout/ContactHeader";
-import PersonalInfo from "../components/layout/PersonalInfo";
+import ContactContainer from "../components/layout/ContactContainer";
 
 const Contact = () => {
   return (
-    <div>
-      <Form />
-      <ContactHeader />
-      <PersonalInfo />
-    </div>
+    <React.Fragment>
+      <ContactContainer />
+    </React.Fragment>
   );
 };
 
