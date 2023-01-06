@@ -1,13 +1,18 @@
 import React from "react";
 import HardSkills from "../components/layout/HardSkills";
 import SoftSkills from "../components/layout/SoftSkills";
+import { motion } from "framer-motion";
 
 function Skills() {
   return (
-    <React.Fragment>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <SoftSkills />
       <HardSkills />
-    </React.Fragment>
+    </motion.div>
   );
 }
 

@@ -1,11 +1,16 @@
 import React from "react";
 import ContactContainer from "../components/layout/ContactContainer";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <React.Fragment>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <ContactContainer />
-    </React.Fragment>
+    </motion.div>
   );
 };
 
