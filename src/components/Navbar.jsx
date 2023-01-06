@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/png/logo.png";
 import Hamburger from "./Hamburger";
 import { Link, NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";

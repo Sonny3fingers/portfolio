@@ -4,7 +4,7 @@
 @media screen and (min-width: 768px) {
   .contactContainer {
     grid-template-columns: 30px 1fr 1fr 1fr 30px;
-    grid-template-rows: 30px 336px 120px 276px;
+    grid-template-rows: 30px 336px 100px 276px;
   }
   .contactContainer form {
     margin-right: 0;
@@ -28,7 +28,7 @@
 }
 @media screen and (min-width: 1200px) {
   .contactContainer {
-    grid-template-columns: 120px 1fr 1fr 1fr 120px;
-    grid-template-rows: 100px 336px 120px 276px;
+    grid-template-columns: 200px 1fr 1fr 1fr 200px;
+    grid-template-rows: 100px 336px 100px 276px;
   }
 }
