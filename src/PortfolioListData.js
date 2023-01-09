@@ -12,6 +12,8 @@ export const portfolioListData = [
     languages: ["html", "css", "javascript", "webpack", "bootstrap"],
     background: "#f0eccf",
     buttonColor: "#4854A1",
+    codeHref: "https://github.com/Sonny3fingers/bookmark-landing-page",
+    projectHref: "https://bookmark-landing-page-ruby.vercel.app/",
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ export const portfolioListData = [
     languages: ["html", "css", "javascript", "react"],
     background: "#FAEAB1",
     buttonColor: "#ff7d1a",
+    codeHref: "https://github.com/Sonny3fingers/e-commerce-product-page",
+    projectHref: "https://e-commerce-product-page-steel.vercel.app/",
   },
   {
     id: 3,
@@ -28,6 +32,8 @@ export const portfolioListData = [
     languages: ["html", "css", "javascript", "react"],
     background: "#CBEDD5",
     buttonColor: "#324F51",
+    codeHref: "https://github.com/Sonny3fingers/Private-library",
+    projectHref: "https://book-project-168e4.web.app/",
   },
   {
     id: 4,
@@ -36,6 +42,8 @@ export const portfolioListData = [
     languages: ["html", "css", "sass", "javascript"],
     background: "#FCF9BE",
     buttonColor: "#f25f3a",
+    codeHref: "https://github.com/Sonny3fingers/manage-landing-page",
+    projectHref: "https://manage-landing-page-phi.vercel.app/",
   },
   {
     id: 5,
@@ -44,5 +52,7 @@ export const portfolioListData = [
     languages: ["html", "css", "sass", "javascript"],
     background: "#F5EFE6",
     buttonColor: "#354C5C",
+    codeHref: "https://github.com/Sonny3fingers/memory-card-game",
+    projectHref: "https://memory-card-game-three.vercel.app/",
   },
 ];

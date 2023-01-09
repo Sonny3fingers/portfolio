@@ -10,8 +10,8 @@ const Backdrop = () => {
     <div
       className={
         showMobileNav
-          ? `${styles.backdrop} ${styles.active}`
-          : `${styles.backdrop} ${styles.inactive}`
+          ? `${styles.backdrop} ${styles.activeBackdrop}`
+          : `${styles.backdrop} ${styles.inactiveBackdrop}`
       }
     ></div>
   );
@@ -20,12 +20,13 @@ const Backdrop = () => {
 const ModalOverlay = (props) => {
   const mobileNavCtx = useContext(MobileNavContext);
   let showMobileNav = mobileNavCtx.isShown;
+
   return (
     <div
       className={
         showMobileNav
-          ? `${styles.modal} ${styles.active}`
-          : `${styles.modal} ${styles.inactive}`
+          ? `${styles.modal} ${styles.activeModal}`
+          : `${styles.modal} ${styles.inactiveModal}`
       }
     >
       {props.children}

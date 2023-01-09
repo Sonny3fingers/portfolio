@@ -5,7 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* animation: fadeOut 0.3s 2.5s ease-out forwards; */
+  z-index: 20;
+  animation: fadeOut 0.3s 2.7s ease-out forwards;
 }
 .loaderBackdrop {
   position: fixed;
@@ -29,6 +30,7 @@
 .coinFront,
 .coinBack,
 .coinMiddle {
+  display: block;
   width: 200px;
   height: 200px;
   position: absolute;

@@ -14,6 +14,8 @@ const PortfolioList = () => {
           languages={item.languages}
           itemBackgroundColor={item.background}
           buttonColor={item.buttonColor}
+          codeHref={item.codeHref}
+          projectHref={item.projectHref}
         />
       ))}
     </ul>

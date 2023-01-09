@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Modal from "./Modal";
 import Linkedin from "./icons/Linkedin";
 import Github from "./icons/Github";
@@ -53,14 +53,20 @@ const MobileNavbar = () => {
           </li>
           <li>
             <span>
-              <Link onClick={mobileNavbarHandler}>
+              <a
+                onClick={mobileNavbarHandler}
+                href="https://www.linkedin.com/in/milivoj-jovisevic-549536153/"
+              >
                 <Linkedin className={styles.icon} />
-              </Link>
+              </a>
             </span>
             <span>
-              <Link onClick={mobileNavbarHandler}>
+              <a
+                onClick={mobileNavbarHandler}
+                href="https://github.com/Sonny3fingers"
+              >
                 <Github className={styles.icon} />
-              </Link>
+              </a>
             </span>
           </li>
         </ul>

@@ -10,7 +10,7 @@ const Navbar = (props) => {
       <Link to="/">
         <img src={logo} alt="logo" />
       </Link>
-      <Hamburger onShowMobileNavbar={props.onShowMobileNavbar} />
+      <Hamburger />
       <nav className={styles.nav}>
         <ul>
           <li>

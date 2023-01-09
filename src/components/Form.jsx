@@ -25,9 +25,17 @@ const Form = () => {
     setIsActiveInputEmail(false);
     setIsActiveInputMessage(false);
   };
+  const formHandler = (e) => {
+    if (e.target.tagName === "FORM") {
+      setIsActiveInputName(false);
+      setIsActiveInputEmail(false);
+      setIsActiveInputMessage(false);
+    }
+  };
   return (
     <form
       className={styles.form}
+      onClick={formHandler}
       action="https://formsubmit.co/jomivili23@gmail.com"
       method="POST"
       autoComplete="off"

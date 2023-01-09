@@ -8,6 +8,8 @@ const PortfolioListItem = ({
   languages,
   itemBackgroundColor,
   buttonColor,
+  codeHref,
+  projectHref,
 }) => {
   return (
     <li
@@ -23,8 +25,12 @@ const PortfolioListItem = ({
         <h3>{title}</h3>
         <p>{[languages.map((item) => `${item}, `)]}</p>
         <div className={styles.buttonGroup}>
-          <ButtonLink buttonColor={buttonColor}>Code</ButtonLink>
-          <ButtonLink buttonColor={buttonColor}>Project</ButtonLink>
+          <ButtonLink buttonColor={buttonColor} linkHref={codeHref}>
+            Code
+          </ButtonLink>
+          <ButtonLink buttonColor={buttonColor} linkHref={projectHref}>
+            Project
+          </ButtonLink>
         </div>
       </div>
     </li>

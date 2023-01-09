@@ -7,9 +7,10 @@ import MobileNavbar from "./components/MobileNavbar";
 import Loader from "./components/Loader";
 
 function App() {
-  const [loader, setLoader] = useState(true);
+  const [loader, setLoader] = useState(false);
 
   useEffect(() => {
+    setLoader(true);
     setTimeout(() => {
       setLoader(false);
     }, 3000);
