@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 .mobileNavbar ul {
-  min-width: 300px;
-  width: 360px;
+  width: 90%;
   padding: 90px 100px;
   display: flex;
   flex-direction: column;
@@ -49,4 +49,9 @@
   align-items: center;
   margin-top: 50px;
   gap: 20px;
+}
+@media screen and (max-width: 375px) {
+  .mobileNavbar ul {
+    width: 95%;
+  }
 }

@@ -21,3 +21,9 @@
   border: 1px solid var(--dark-background);
   text-align: center;
 }
+@media screen and (max-width: 380px) {
+  .letterButton span {
+    width: 30px;
+    padding: 5px;
+  }
+}

@@ -47,13 +47,6 @@
   transform: translateX(-100%);
   transition: all 0.3s ease-in;
 }
-/* .formControl label span {
-  position: absolute;
-  left: 0;
-  bottom: 5px;
-  transition: all 0.3s ease-in;
-  z-index: 1;
-} */
 .formControl.isActive label::after {
   transform: translateX(0);
   z-index: 1;
