@@ -7,12 +7,12 @@ const PersonalInfo = () => {
   return (
     <ul className={styles.personalInfo}>
       <li>
-        <span>
+        <a href="https://www.linkedin.com/in/milivoj-jovisevic-549536153/">
           <Linkedin />
-        </span>
-        <span>
+        </a>
+        <a href="https://github.com/Sonny3fingers">
           <Github />
-        </span>
+        </a>
       </li>
       <li>
         name: <span>Milivoj Jovisevic</span>
