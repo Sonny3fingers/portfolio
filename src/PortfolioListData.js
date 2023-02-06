@@ -3,6 +3,8 @@ import EcommerceImage from "./assets/png/ecommerce-desktop.png";
 import LibraryImage from "./assets/png/library-desktop.png";
 import ManageImage from "./assets/png/manage-desktop.png";
 import MemoryImage from "./assets/png/memory-card-desktop.png";
+import AdviceImage from "./assets/png/advice.png";
+import QuoteTalkImage from "./assets/png/quote-talk-min.png";
 
 export const portfolioListData = [
   {
@@ -54,5 +56,25 @@ export const portfolioListData = [
     buttonColor: "#354C5C",
     codeHref: "https://github.com/Sonny3fingers/memory-card-game",
     projectHref: "https://memory-card-game-three.vercel.app/",
+  },
+  {
+    id: 6,
+    image: AdviceImage,
+    title: "Advice Generator App",
+    languages: ["html", "css", "sass", "react"],
+    background: "#CADAE4",
+    buttonColor: "#1dc97b",
+    codeHref: "https://github.com/Sonny3fingers/advice-generator-app",
+    projectHref: "https://advice-generator-app-gilt.vercel.app/",
+  },
+  {
+    id: 7,
+    image: QuoteTalkImage,
+    title: "QuoteTalk",
+    languages: ["html", "tailwind", "react"],
+    background: "#F8F8F8",
+    buttonColor: "#2CA2A2",
+    codeHref: "https://github.com/Sonny3fingers/QuoteTalk",
+    projectHref: "https://quote-talk.vercel.app/",
   },
 ];
