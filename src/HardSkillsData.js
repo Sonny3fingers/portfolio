@@ -65,10 +65,18 @@ export const HardSkillsData = [
   },
   {
     id: 9,
-    skill: "Vitest, Jest",
-    level: 75,
-    remains: 25,
+    skill: "Unit Testing",
+    level: 70,
+    remains: 30,
     colorLevel: "#86b91a",
     colorRemains: "#edf9d2",
+  },
+  {
+    id: 10,
+    skill: "Tailwind",
+    level: 70,
+    remains: 30,
+    colorLevel: "#0ea5e9",
+    colorRemains: "#cfeefc",
   },
 ];
