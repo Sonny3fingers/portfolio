@@ -50,8 +50,8 @@ export const HardSkillsData = [
   {
     id: 7,
     skill: "Git, Github",
-    level: 78,
-    remains: 22,
+    level: 75,
+    remains: 25,
     colorLevel: "#333333",
     colorRemains: "#e6e6e6",
   },

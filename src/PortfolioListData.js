@@ -5,6 +5,7 @@ import ManageImage from "./assets/png/manage-desktop.png";
 import MemoryImage from "./assets/png/memory-card-desktop.png";
 import AdviceImage from "./assets/png/advice.png";
 import QuoteTalkImage from "./assets/png/quote-talk-min.png";
+import Dictionary from "./assets/png/dictionary.png";
 
 export const portfolioListData = [
   {
@@ -76,5 +77,15 @@ export const portfolioListData = [
     buttonColor: "#2CA2A2",
     codeHref: "https://github.com/Sonny3fingers/QuoteTalk",
     projectHref: "https://quote-talk.vercel.app/",
+  },
+  {
+    id: 8,
+    image: Dictionary,
+    title: "Dictionary Web App",
+    languages: ["html", "tailwind", "react"],
+    background: "#becada",
+    buttonColor: "#a855f7",
+    codeHref: "https://github.com/Sonny3fingers/dictionary-web-app",
+    projectHref: "https://dictionary-web-app-nine.vercel.app/",
   },
 ];
