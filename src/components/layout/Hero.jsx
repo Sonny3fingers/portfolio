@@ -5,9 +5,6 @@ import Button from "../cta/Button";
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      {/* <div className={styles.frame}>
-        <div className={styles.heroImg}></div>
-      </div> */}
       <div className={styles.heroText}>
         <h1>Milivoj Jovisevic</h1>
         <h2>Front-End Developer</h2>
