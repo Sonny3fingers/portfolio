@@ -4,6 +4,9 @@
   flex-wrap: wrap;
   width: 100%;
   padding: var(--small-container);
+  border-left: 1px solid var(--dark-background);
+  border-right: 1px solid var(--dark-background);
+  border-bottom: 1px solid var(--dark-background);
 }
 @media screen and (min-width: 768px) {
   .hardSkills {

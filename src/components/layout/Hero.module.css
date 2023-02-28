@@ -46,16 +46,6 @@
 @media screen and (min-width: 640px) {
   .hero {
     padding: var(--medium-page-container);
-    min-height: 1058px;
-  }
-  .heroText {
-    /* flex: 1;
-    order: 1;
-    height: 500px; */
-    /* padding-left: 20px;
-    padding-right: 0px;
-    align-items: flex-start;
-    justify-content: center; */
   }
   .heroText h1 {
     font-size: 60px;
@@ -64,6 +54,11 @@
     padding: 2px 0px;
     width: 80%;
     text-align: left;
+  }
+}
+@media screen and (min-width: 743px) {
+  .hero {
+    max-height: 1058px;
   }
 }
 @media screen and (min-width: 840px) {
