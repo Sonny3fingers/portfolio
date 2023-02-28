@@ -59,6 +59,7 @@
 @media screen and (min-width: 743px) {
   .hero {
     max-height: 1058px;
+    min-height: 1000px;
   }
 }
 @media screen and (min-width: 840px) {
