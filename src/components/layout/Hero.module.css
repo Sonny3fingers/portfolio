@@ -1,6 +1,7 @@
 .hero {
   width: 100%;
-  height: calc(100vh - 75px);
+  height: 90vh;
+  height: 90svh;
   max-height: 725px;
   display: flex;
   align-items: flex-end;
@@ -27,6 +28,9 @@
   -webkit-text-stroke: 1px var(--dark-background);
   margin-bottom: 8px;
 }
+.heroText h1 span {
+  display: none;
+}
 .heroText h2 {
   padding: 5px 0;
   margin-bottom: 40px;
@@ -37,6 +41,11 @@
   text-align: center;
   margin-bottom: 40px;
   color: var(--light-gray);
+}
+@media screen and (min-width: 390px) {
+  .heroText h1 span {
+    display: inline;
+  }
 }
 @media screen and (min-width: 570px) {
   .heroText h1 {
@@ -70,7 +79,7 @@
 @media screen and (min-width: 1279px) {
   .hero {
     padding: var(--large-page-container);
-    height: 685px;
+    height: 85vh;
     min-height: 685px;
     display: flex;
     justify-content: flex-start;
@@ -106,7 +115,6 @@
 }
 @media screen and (min-width: 1440px) {
   .hero {
-    height: 877px;
-    min-height: 877px;
+    height: 100vh;
   }
 }
