@@ -6,6 +6,8 @@
 }
 .mobileNavbar ul {
   width: 90%;
+  height: 85vh;
+  height: 85svh;
   padding: 90px 100px;
   display: flex;
   flex-direction: column;
