@@ -1,6 +1,6 @@
 import BookmarkImage from "./assets/png/bookmark-desktop.png";
 import EcommerceImage from "./assets/png/ecommerce-desktop.png";
-import LibraryImage from "./assets/png/library-desktop.png";
+import LibraryImage from "./assets/png/libapp.png";
 import ManageImage from "./assets/png/manage-desktop.png";
 import MemoryImage from "./assets/png/memory-card-desktop.png";
 import AdviceImage from "./assets/png/advice.png";
