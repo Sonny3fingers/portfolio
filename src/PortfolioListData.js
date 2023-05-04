@@ -6,6 +6,7 @@ import MemoryImage from "./assets/png/memory-card-desktop.png";
 import AdviceImage from "./assets/png/advice.png";
 import QuoteTalkImage from "./assets/png/quote-talk-min.png";
 import Dictionary from "./assets/png/dictionary.png";
+import BookstoreImage from "./assets/png/bookstore.png";
 
 export const portfolioListData = [
   {
@@ -87,5 +88,21 @@ export const portfolioListData = [
     buttonColor: "#a855f7",
     codeHref: "https://github.com/Sonny3fingers/dictionary-web-app",
     projectHref: "https://dictionary-web-app-nine.vercel.app/",
+  },
+  {
+    id: 9,
+    image: BookstoreImage,
+    title: "Bookstore",
+    languages: [
+      "typescript",
+      "react",
+      "tailwind",
+      "Firebase database",
+      "Firebase storage",
+    ],
+    background: "#e6f9ff",
+    buttonColor: "#3399ff",
+    codeHref: "https://github.com/Sonny3fingers/store-typescript",
+    projectHref: "https://bookstore-typescript.vercel.app/",
   },
 ];
