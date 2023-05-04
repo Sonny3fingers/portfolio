@@ -79,4 +79,12 @@ export const HardSkillsData = [
     colorLevel: "#0ea5e9",
     colorRemains: "#cfeefc",
   },
+  {
+    id: 11,
+    skill: "Typescript",
+    level: 60,
+    remains: 40,
+    colorLevel: "#3399ff",
+    colorRemains: "#e6f2ff",
+  },
 ];
